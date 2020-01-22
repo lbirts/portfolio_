@@ -1,0 +1,42 @@
+body {
+    background-image: linear-gradient(to top, #66ffff -16%, #ccffff 100%);
+    background-repeat: no-repeat;
+}
+body {
+    text-align: center;
+}
+img {
+    border-radius: 50%;
+    float: left;
+    /* height: 300px; */
+}
+#left {
+    float: left;
+    width: 50%;
+    overflow: hidden;
+    /* position: absolute; */
+    /* display: block; */
+}
+#all {
+    width: 69%;
+    margin: auto;
+}
+#right {
+    overflow: hidden;
+    position: relative;
+    width: 50%;
+    margin: auto;
+    font-size: 20px;
+    line-height: 30px;
+    /* float: left; */
+    /* display: inline; */
+}
+#contact {
+    clear: both;
+}
+.sidebyside li{
+    display: inline;
+    float: left;
+    list-style-type: none;
+    margin: auto;
+}
